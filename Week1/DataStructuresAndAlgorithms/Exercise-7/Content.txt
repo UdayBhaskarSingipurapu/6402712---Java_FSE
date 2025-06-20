@@ -1,0 +1,19 @@
+Recursive Forecasting – Financial Growth Calculator
+
+✅ Description
+Predicts future investment value based on a constant annual growth rate using recursion.
+
+📁 Files
+- `FinancialForecast.java`
+- `FinancialForecastMemoized.java` (Optimized)
+
+⏱ Time Complexity
+
+| Implementation       | Time Complexity | Space Complexity |
+|----------------------|------------------|-------------------|
+| Basic Recursion      | O(n)             | O(n) (stack calls) |
+| Memoized Recursion   | O(n)             | O(n) (cached calls) |
+
+🧠 Optimization Strategies:
+- Use **memoization** (cache previous results) to avoid repeated calculations.
+- Use **iteration** if performance is critical and stack depth is a concern.

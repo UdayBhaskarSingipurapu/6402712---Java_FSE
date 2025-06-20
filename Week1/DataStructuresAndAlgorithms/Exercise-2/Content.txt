@@ -1,0 +1,23 @@
+Searching – Linear vs Binary Search on Product Data
+
+✅ Description
+Implements both linear and binary search algorithms on a product list (with `productId`, `name`, and `category`). Demonstrates search efficiency for e-commerce-style data.
+
+📁 Files
+- `Product.java`
+- `Test.java` (Main with Scanner input)
+
+📊 Time Complexity Comparison
+
+| Search Type     | Best Case | Average Case | Worst Case |
+|------------------|-----------|---------------|-------------|
+| Linear Search    | O(1)      | O(n)          | O(n)        |
+| Binary Search    | O(1)      | O(log n)      | O(log n)    |
+
+> 🔸 **Binary search** is faster for large sorted datasets but requires sorting beforehand.  
+> 🔸 **Linear search** is simple and works on unsorted lists but is inefficient for large inputs.
+
+✅ Recommendation:
+For real-time search systems (like e-commerce):
+- Use **Binary Search** if data is frequently sorted and mostly read-only.
+- Use **Hashing/Indexing** or **Search Trees** for large-scale dynamic data.
